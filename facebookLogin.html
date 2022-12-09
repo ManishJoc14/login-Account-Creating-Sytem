@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				     <title>Login</title>
+<script src="facebookLogin.js"></script>				
+<link rel="stylesheet"type="text/css"href="facebookLogin.css">
+<meta name="viewport"content="width=device-width">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="submitToggle.js"></script>
+</head>
+
+
+
+<body>	
+	<form id="form"method="POST" action="login.php"name="form1">
+				     	<!-- Login  -->
+				<h1 id="loginText">login</h1>
+  				<h3 id="sitename">Facebook</h3>
+				
+				
+					<!-- input USERNAME -->
+ <div class="inp">
+				 <i class="fa fa-user" aria-hidden="true"></i>
+						 <input type="text" class="input"placeholder="Username" name="name"id="inpnameid"required>
+ </div>
+          
+          
+          <!-- input PASSWORD -->    
+	<div class="inp">
+				<i class="fa fa-lock" aria-hidden="true"></i>
+					 <input type="Password" class="input"placeholder="Password" name="pass"id="inppassid" required>
+	</div>
+					       
+					       
+					      <!-- SUBMIT --> 
+				<button type="Submit"class="btn1"id="sub"onclick="check()">Submit
+         <i class="fa fa-check-circle-o" aria-hidden="true"style="margin-left:5px;">
+         </i>
+   	</button><br>
+				
+		     
+		     		<!-- FORGET PASSWORD -->
+				<button id="btn2">
+				  <a href="forgetPassword.html"style="text-decoration:none;color:black;">Forget Password
+      </a>
+    </button><br><hr>
+ 
+ 
+          <!-- CREATE-ID -->
+   <button id="btn3">
+    		  <a  href="createNewAccount.html"style="text-decoration:none;color:white;">Create New Account
+      </a>
+   </button><br>
+    
+    
+         
+  
+</div>
+   	</form>
+  </body>
+</html>
